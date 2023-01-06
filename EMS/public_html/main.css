@@ -1,0 +1,107 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26 Nov 2022, 12:02:34 pm
+    Author     : lchee
+*/
+
+
+
+.cont_icon{
+    float: right;
+    margin-top: 25px;
+    
+}
+
+.empID{
+    width: 100px; 
+    text-align: center; 
+}
+.empNo{
+    width: 50px; 
+    text-align: center; 
+}
+
+.empName{
+    width:450px; 
+    text-align: center;
+}
+
+.empRole{
+    width: 80px; 
+    text-align: center;
+}
+
+.empButton{
+    width: 80px;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 56px;
+}
+
+.dropdown-container-btn ul, li{
+      list-style-type: none;
+}
+
+/* Style the sidenav links and the dropdown button */
+.dropdown-btn,.dropdown-container-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  border: none;
+  color: black;
+  background: none;
+  width: 100%;
+  text-align: left;
+  outline: none;
+}
+
+/* On mouse-over */
+.dropdown-btn:hover, .dropdown-container-btn:hover {
+  color: #ffffff;
+  background-color: #0d0d0d;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: white;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+a{
+  text-decoration:none;
+}
+
